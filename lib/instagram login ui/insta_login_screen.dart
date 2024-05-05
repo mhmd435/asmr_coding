@@ -1,15 +1,11 @@
 
-
-import 'dart:ui';
-
-import 'package:asmr_coding/cubit/login_cubit.dart';
 import 'package:asmr_coding/generated/assets.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'cubit/login_cubit.dart';
 
 class InstaLoginScreen extends StatelessWidget {
   InstaLoginScreen({super.key});
@@ -122,7 +118,7 @@ class InstaLoginScreen extends StatelessWidget {
                       ],
                     ),
 
-                    Spacer(),
+                    const Spacer(),
 
                     Column(
                       children: [
